@@ -1,1 +1,78 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+html {
+  overflow-y: scroll;
+}
+
+.modal-open {
+  padding-right: 0 !important;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.text-medium {
+  font-size: 16px;
+}
+
+.text-large {
+  font-size: 20px;
+}
+
+.content {
+  padding-top: 50px !important;
+  padding-bottom: 100px !important;
+}
+
+.horizontal-item {
+  margin-right: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.app-card {
+  background: #b7d7f2;
+  border: 1px solid #bfd0f3;
+}
+
+.invisible {
+  display: none;
+}

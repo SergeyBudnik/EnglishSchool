@@ -1,0 +1,45 @@
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container-fluid app-footer">
+    <div class="row hidden-sm hidden-xs">
+      <div class="col-md-offset-1 col-md-4 vcenter">
+        <a class="text-medium clickable" href="#/contacts">
+          <img class="app-footer-small-icon" src="assets/images/contact/address_small.png">
+          <span>{{address}}</span>
+        </a>
+      </div>
+
+      <div class="col-md-2 vcenter align-center">
+        <a class="clickable" [href]="vkGroupLink">
+          <img class="app-footer-large-icon" src="assets/images/footer/vk_logo.png">
+        </a>
+      </div>
+
+      <div class="col-md-4 vcenter align-right">
+        <a class="text-large clickable" href="tel:{{telephone}}">
+          <img class="app-footer-small-icon" src="assets/images/contact/call_small.png">
+          <span>{{telephone}}</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="row hidden-lg hidden-md">
+      <div class="col-xs-offset-1 col-xs-4 vcenter align-left">
+        <a class="clickable" href="#/contacts">
+          <img class="app-footer-large-icon" src="assets/images/contact/address_large.png">
+        </a>
+      </div>
+
+      <div class="col-md-2 vcenter align-center">
+        <a class="clickable" [href]="vkGroupLink">
+          <img class="app-footer-large-icon" src="assets/images/footer/vk_logo.png">
+        </a>
+      </div>
+
+      <div class="col-xs-4 vcenter align-right">
+        <a class="clickable" href="tel:{{telephone}}">
+          <img class="app-footer-large-icon" src="assets/images/contact/call_large.png">
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

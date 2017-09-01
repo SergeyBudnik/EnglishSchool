@@ -1,0 +1,66 @@
+<app-header [tab]="'CONTACTS'"></app-header>
+
+<div class="container-fluid no-padding content">
+  <app-free-lesson-assignment></app-free-lesson-assignment>
+
+  <app-promo [minimalistic]="true"></app-promo>
+
+  <br>
+
+  <div class="row no-margin">
+
+    <div class="col-md-5">
+      <agm-map [latitude]="59.948124" [longitude]="30.236635" [zoom]="16" style="width: 100%; height: 400px;">
+        <agm-marker [latitude]="59.948124" [longitude]="30.236635"></agm-marker>
+      </agm-map>
+
+      <br>
+    </div>
+
+    <div class="col-md-3">
+      <h3>Адрес</h3>
+
+      <span class="text-medium">
+        Санкт-Петербург
+      </span>
+
+      <br>
+
+      <span class="text-medium">
+        ул. Одоевского, 27 лит. А
+      </span>
+
+      <br>
+
+      <span class="text-medium">
+        ТЦ Платформа, 4 этаж
+      </span>
+    </div>
+
+    <div class="col-md-4">
+      <h3>Контактные данные</h3>
+
+      <span>
+        <img class="app-contacts-tel-icon" src="assets/images/contact/call_small.png">
+        <a class="clickable text-medium" href="tel:+79119200015">+79119200015</a>
+      </span>
+
+      <br>
+
+      <span>
+        <img class="app-contacts-tel-icon" src="assets/images/contact/call_small.png">
+        <a class="clickable text-medium" href="tel:+79130426630">+79130426630</a>
+      </span>
+
+      <br><br>
+
+      <span class="text-medium">
+        platform934engschool@gmail.com
+      </span>
+    </div>
+  </div>
+
+  <br>
+
+  <app-footer></app-footer>
+</div>

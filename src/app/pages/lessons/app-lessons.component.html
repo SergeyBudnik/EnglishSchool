@@ -1,0 +1,138 @@
+<app-header [tab]="'LESSONS'"></app-header>
+
+<div class="container-fluid no-padding content">
+  <app-free-lesson-assignment></app-free-lesson-assignment>
+
+  <app-promo [minimalistic]="true"></app-promo>
+
+  <br>
+
+  <div class="row no-margin">
+    <div class="col-md-1"></div>
+
+    <div class="col-md-5 app-lessons-column">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Выберите свой тип занятий</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 app-card">
+          <h4>
+            <img src="assets/images/advantages/individual_lessons.png" class="app-lessons-icon horizontal-item">
+
+            Индивидуальные
+          </h4>
+
+          <br>
+
+          Одним из главных достоинств индивидуального обучения является составление программы с учетом ваших пожеланий.
+          Индивидуальные занятия наиболее эффективны для подготовки к экзаменам.
+
+          <br><br>
+
+          <button class="btn btn-default" (click)="onPricesClick()">
+            Узнайте о стоимости занятий
+          </button>
+
+          <br><br>
+        </div>
+      </div>
+
+      <div class="row app-lessons-row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12 app-card">
+              <h4>
+                <img src="assets/images/advantages/group_lessons.png" class="app-lessons-icon horizontal-item">
+
+                Групповые
+              </h4>
+
+              <br>
+
+              Наиболее популярным направлением является обучение в группах, так как один из важнейших аспектов изучения языка – это общение.
+              Небольшие группы от 2 до 6 человек позволяют каждому учащемуся раскрыть свой потенциал.
+
+              <br><br>
+
+              <button class="btn btn-default" (click)="onPricesClick()">
+                Узнайте о стоимости занятий
+              </button>
+
+              <br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-5 app-lessons-column">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Чем уникальны наши занятия?</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 app-card">
+          <h4>
+            <img src="assets/images/advantages/knowledge_trending.png" class="app-lessons-icon horizontal-item">
+
+            Мы проводим регулярную оценку ваших знаний
+          </h4>
+
+          <br>
+
+          В конце каждого месяца вы сдаете письменный и устный экзамен, который поможет вам узнать, чему вам стоит уделить внимание в будущем.
+          Такая система очень удобна для родителей, так как вы всегда сможете контролировать успеваемость вашего ребенка.
+          Ученики младших классов вместо оценок получают призы – наклейки и сладости.
+
+          <br><br>
+        </div>
+      </div>
+
+      <div class="row app-lessons-row">
+        <div class="col-md-12 app-card">
+          <h4>
+            <img src="assets/images/advantages/game_lessons.png" class="app-lessons-icon horizontal-item">
+
+            Занятия проходят в игровой форме
+          </h4>
+
+          <br>
+
+          Игровой метод проведения занятия подразумевает использование различных игр, сценок, кроссвордов помогает повторить материал предыдущих уроков.
+          Различные загадки, квесты, подвижные игры делают урок увлекательным и веселым, поэтому 1,5 часа занятий английским пролетают незаметно для студентов.
+
+          <br><br>
+        </div>
+      </div>
+
+      <div class="row app-lessons-row">
+        <div class="col-md-12 app-card">
+          <h4>
+            <img src="assets/images/advantages/speaking_clubs.png" class="app-lessons-icon horizontal-item">
+
+            Тематические разговорные клубы
+          </h4>
+
+          <br>
+
+          Основной проблемой в изучении английского языка является языковой и психологический барьеры,
+          поэтому тематические разговорные клубы для детей и взрослых предоставляют возможность
+          практиковать свой английский с квалифицированными преподавателями и носителями языка.
+          Регулярное посещение разговорного клуба поможет вам почувствовать себя более комфортно в англоязычной среде.
+
+          <br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <app-footer></app-footer>
+</div>
+

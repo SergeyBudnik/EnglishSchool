@@ -1,0 +1,21 @@
+<div class="modal fade test" id="myModal" role="dialog" #myModal>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Запишитесь на бесплатное занятие!</h4>
+      </div>
+      <div class="modal-body">
+        <input class="form-control" placeholder="Имя" [(ngModel)]="lessonRequest.name">
+
+        <br>
+
+        <input class="form-control" placeholder="Телефон" type="tel" [(ngModel)]="lessonRequest.telephone">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" [disabled]="submitDisabled()" (click)="submit()">Записаться</button>
+      </div>
+    </div>
+  </div>
+</div>

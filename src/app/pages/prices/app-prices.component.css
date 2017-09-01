@@ -1,0 +1,13 @@
+.app-prices-column {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.app-prices-separator {
+  height: 4px;
+}
+
+.app-prices-icon {
+  width: 30px;
+  height: 30px;
+}

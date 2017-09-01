@@ -1,0 +1,50 @@
+<nav class="navbar navbar-default navbar-fixed-top app-header">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand app-courses-title-container" href="#">
+        <span>
+          <img class="app-header-logo" alt="Brand" src="assets/images/header/logo.png">
+        </span>
+
+        <b class="app-courses-title">Platform 9¾</b>
+
+        <div class="app-courses-subtitle">Курсы английского языка</div>
+      </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li [class.active]="tab === 'MAIN'">
+          <a href="#">Главная</a>
+        </li>
+        <li [class.active]="tab === 'ABOUT'">
+          <a href="#/about">О нас</a>
+        </li>
+        <li [class.active]="tab === 'LESSONS'">
+          <a href="#/lessons">Занятия</a>
+        </li>
+        <li [class.active]="tab === 'PRICES'">
+          <a href="#/prices">Цены</a>
+        </li>
+        <li [class.active]="tab === 'CONTACTS'">
+          <a href="#/contacts">Контакты</a>
+        </li>
+      </ul>
+
+      <div class="nav navbar-nav navbar-right hidden-sm hidden-xs" style="margin-top: 15px">
+        <span>
+          <img src="assets/images/elsad_link.png" style="width: 20px; height: 20px;">
+        </span>
+
+        <a class="app-elsad-link" href="http://www.elsadchessmaster.ru/">
+          Шахматная школа Эльшада Оруджева
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

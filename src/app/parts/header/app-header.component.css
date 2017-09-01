@@ -1,0 +1,26 @@
+.app-header {
+  border: none;
+}
+
+.app-header-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.app-courses-title-container {
+  margin-top: -10px;
+}
+
+.app-courses-title {
+  font-size: 25px;
+}
+
+.app-courses-subtitle {
+  font-size: 15px;
+  margin-left: 45px;
+  margin-top: -15px;
+}
+
+.app-elsad-link {
+  color: #3498db !important;
+}

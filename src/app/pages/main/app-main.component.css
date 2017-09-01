@@ -1,0 +1,18 @@
+.app-advantages {
+  text-align: center;
+}
+
+.app-advantages-title {
+  font-size: 25px;
+}
+
+.app-advantages-list {
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+}
+
+.app-free-lesson {
+  text-align: center;
+}

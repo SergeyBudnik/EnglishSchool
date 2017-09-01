@@ -1,0 +1,124 @@
+<app-header [tab]="'ABOUT'"></app-header>
+
+<div class="container-fluid no-padding content">
+  <app-free-lesson-assignment></app-free-lesson-assignment>
+
+  <app-promo [minimalistic]="true"></app-promo>
+
+  <br>
+
+  <div class="row no-margin">
+    <div class="col-md-offset-1 col-md-3">
+      <img src="assets/images/ekaterina_kryukova.png" style="width: 200px; height: 200px;"/>
+
+      <br><br>
+
+      <span style="font-size: 20px">
+        Екатерина Крюкова
+      </span>
+
+      <br>
+
+      <span>
+        Руководитель курсов английского языка 'Platform 9¾'
+      </span>
+
+      <br><br>
+    </div>
+
+    <div class="col-md-7">
+      <h4>Рада приветствовать вас в школе английского языка 'Platform 9¾'</h4>
+
+      Если вы хотите подтянуть английский язык, научиться свободно общаться в путешествиях или подготовиться к экзаменам, то мы приглашаем вас погрузиться в увлекательный мир английского языка.
+
+      <br><br><br>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 align-center">
+            <app-advantage
+              [link]="'#/lessons'"
+              [image]="'assets/images/advantages/group_lessons.png'"
+              [title]="'Занятия в группах от 2 до 6 человек'"
+              [description]="'Уроки в небольших группах позволяют нам раскрыть потенциал каждого студента'">
+            </app-advantage>
+
+            <br><br>
+          </div>
+
+          <div class="col-md-4 align-center">
+            <app-advantage
+              [link]="'#/prices'"
+              [image]="'assets/images/advantages/low_price.png'"
+              [title]="'Низкая цена'"
+              [description]="'Стоимость занятий от 370 рублей за академический час'">
+            </app-advantage>
+
+            <br><br>
+          </div>
+
+          <div class="col-md-4 align-center">
+            <app-advantage
+              [link]="'#/contacts'"
+              [image]="'assets/images/advantages/good_location.png'"
+              [title]="'Удобное расположение'"
+              [description]="'2 минуты пешком от станции метро Приморская'">
+            </app-advantage>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+          <div class="col-md-4 align-center">
+            <app-advantage
+              [link]="'#/lessons'"
+              [image]="'assets/images/advantages/knowledge_trending.png'"
+              [title]="'Регулярная оценка ваших знаний'"
+              [description]="'В конце месяца студенты сдают экзамен, который позволяет оценить полученные знания'">
+            </app-advantage>
+
+            <br><br>
+          </div>
+
+          <div class="col-md-4 align-center">
+            <app-advantage
+              [link]="'#/lessons'"
+              [image]="'assets/images/advantages/game_lessons.png'"
+              [title]="'Занятия для детей в игровой форме'"
+              [description]="'Совмещаем изучение английского с отдыхом!'">
+            </app-advantage>
+
+            <br><br>
+          </div>
+
+          <div class="col-md-4 align-center">
+            <app-advantage
+              [link]="'#/lessons'"
+              [image]="'assets/images/advantages/speaking_clubs.png'"
+              [title]="'Speaking Club с носителями английского языка'"
+              [description]="'Преодоление языкового барьера с преподавателями из США и Великобритании'">
+            </app-advantage>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+          <div class="col-md-4 align-center">
+            <app-advantage
+              [link]="'#/lessons'"
+              [image]="'assets/images/advantages/education_materials.png'"
+              [title]="'Обучение по современным материалам и учебникам'"
+              [description]="'Oxford University Press, Cambridge University Press, Longman, Macmillan'">
+            </app-advantage>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <app-footer></app-footer>
+</div>

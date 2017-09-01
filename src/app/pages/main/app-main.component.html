@@ -1,0 +1,50 @@
+<app-header [tab]="'MAIN'"></app-header>
+
+<div class="container-fluid no-padding content">
+  <app-free-lesson-assignment></app-free-lesson-assignment>
+
+  <app-promo [minimalistic]="false"></app-promo>
+
+  <br>
+
+  <h3 class="align-center">Наши преимущества</h3>
+
+  <br>
+
+  <div class="row no-margin">
+    <div class="col-md-offset-1 col-md-3 align-center">
+      <app-advantage
+        [link]="'#/lessons'"
+        [image]="'assets/images/advantages/group_lessons.png'"
+        [title]="'Занятия в группах от 2 до 6 человек'"
+        [description]="'Уроки в небольших группах позволяют нам раскрыть потенциал каждого студента'">
+      </app-advantage>
+
+      <br><br>
+    </div>
+
+    <div class="col-md-4 align-center">
+      <app-advantage
+        [link]="'#/prices'"
+        [image]="'assets/images/advantages/low_price.png'"
+        [title]="'Низкая цена'"
+        [description]="'Стоимость занятий от 370 рублей за академический час'">
+      </app-advantage>
+
+      <br><br>
+    </div>
+
+    <div class="col-md-3 align-center">
+      <app-advantage
+        [link]="'#/contacts'"
+        [image]="'assets/images/advantages/good_location.png'"
+        [title]="'Удобное расположение'"
+        [description]="'2 минуты пешком от станции метро Приморская'">
+      </app-advantage>
+    </div>
+  </div>
+
+  <br>
+
+  <app-footer></app-footer>
+</div>
